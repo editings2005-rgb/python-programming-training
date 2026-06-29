@@ -1,0 +1,10 @@
+n= int(input("enter the value"))
+square=n*n
+digit=len(str(n))
+right=square%(10**digits)
+left=square//(10**digit)
+
+if left+right==n:
+    print("keprekar number")
+else:
+    print("not")

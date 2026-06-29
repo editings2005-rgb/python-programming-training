@@ -1,0 +1,10 @@
+unit=int(input("enter the value"))
+if unit<=100 & unit>0:
+    r1=unit*1.50
+    print(r1)
+elif unit>100 & unit<=200:
+    r2=unit*2.05
+    print(r2)
+else:
+    r3=unit*4
+    print(r3)
